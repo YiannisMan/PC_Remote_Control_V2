@@ -48,6 +48,15 @@ public class Constants {
         return new HashMap<>(MAC_ADDRESSES_MAP); // Επιστροφή αντιγράφου
     }
 
+    public static String getMacAddress(String hostname)
+    {
+        if (hostname == null)
+        {
+            return null;
+        }
+        return MAC_ADDRESSES_MAP.get(hostname);
+    }
+
     // Η μέθοδος που έχουμε για τις IPs (επιστρέφει ολόκληρο τον χάρτη)
     public static Map<String, String> getIpAddresses()
     {

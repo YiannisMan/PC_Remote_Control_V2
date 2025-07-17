@@ -7,7 +7,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.lab_control_v2"
+        applicationId = "com.yiannisman.pclabcontrol"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
