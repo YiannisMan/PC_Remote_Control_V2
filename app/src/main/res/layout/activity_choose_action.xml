@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ChooseActionActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Choose"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idEcho"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            app:backgroundTint="#9b8afB"
+            app:cornerRadius="20dp"
+            app:strokeColor="#fff"
+            android:text="@string/Echo"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/idRestart"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            app:backgroundTint="#9b8afB"
+            app:cornerRadius="20dp"
+            app:strokeColor="#fff"
+            android:text="@string/Restart"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/idShutdown"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            app:backgroundTint="#9b8afB"
+            app:cornerRadius="20dp"
+            app:strokeColor="#fff"
+            android:text="@string/Shutdown"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/idRestore"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            app:backgroundTint="#9b8afB"
+            app:cornerRadius="20dp"
+            app:strokeColor="#fff"
+            android:text="@string/Restore"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/idWOL"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            app:backgroundTint="#9b8afB"
+            app:cornerRadius="20dp"
+            app:strokeColor="#fff"
+            android:text="WOL"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

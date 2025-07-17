@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Lab_Control</string>
+    <string name="Echo">Echo</string>
+    <string name="Restart">Restart</string>
+    <string name="Shutdown">Shutdown</string>
+    <string name="Restore">Restore</string>
+    <string name="WOLs">Wake On LAN</string>
+    <string name="Choose">Choose Command</string>
+    <string name="Back">&lt;&lt; Back</string>
+    <string name="Continue">Continue &gt;&gt;</string>
+    <string name="Title">Lab Control</string>
+    <string name="SelectAll">Select All</string>
+    <string name="Deselect">Deselect All</string>
+    <string name="Refresh">Refresh</string>
+    <string name="Console">Refresh Status</string>
+
+    <string name="selected_action_prefix">Επιλεγμένη Ενέργεια: </string>
+    <string name="execute_action_default">Εκτέλεση</string>
+    <string name="action_echo_desc">Echo</string>
+    <string name="execute_echo">Έλεγχος Επιλ.</string>
+    <string name="action_restart_desc">Restart</string>
+    <string name="execute_restart">Επανεκκίνηση Επιλ.</string>
+    <string name="action_shutdown_desc">Shutdown</string>
+    <string name="execute_shutdown">Τερματισμός Επιλ.</string>
+    <string name="action_restore_desc">Restore</string>
+    <string name="execute_restore">Επαναφορά Επιλ.</string>
+    <string name="action_wol_desc">Wake on LAN</string>
+    <string name="execute_wol">Εκκίνηση Επιλ.</string>
+    <string name="action_unknown_desc">Άγνωστη Ενέργεια</string>
+    <string name="no_pcs_selected">Δεν έχετε επιλέξει υπολογιστές.</string>
+    <string name="executing_action_on_pcs">Εκτέλεση ενέργειας \'%1$s\' σε %2$d υπολογιστές:</string>
+    <string name="wol_error_no_mac">WOL Error για %1$s: Μη έγκυρη ή μη διαθέσιμη MAC (%2$s)</string>
+    <string name="wol_packet_sent_to_mac">WOL packet εστάλη στη MAC: %1$s</string>
+    <string name="wol_error_for_mac">WOL Error για MAC %1$s: %2$s (%3$s)</string>
+    <string name="refreshing_all_status">Ανανέωση κατάστασης όλων των PCs…</string>
+</resources>
