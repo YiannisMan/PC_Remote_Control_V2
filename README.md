@@ -66,8 +66,8 @@
 
         ```python
         IP_TO_HOSTNAME_MAP = {
-            "192.168.1.100": "PRPC01",
-            "192.168.1.101": "PRPC02",
+            "ΧΧΧ.ΧΧΧ.Χ.ΧΧΧ": "PRPC01",
+            "ΧΧΧ.ΧΧΧ.Χ.ΧΧΧ": "PRPC02",
             # ... προσθέστε περισσότερους υπολογιστές
         }
         ```
@@ -88,11 +88,11 @@
         ```java
         // Αρχικοποίηση IP Addresses
         IP_ADDRESSES_MAP = new HashMap<>();
-        IP_ADDRESSES_MAP.put("PRPC01", "192.168.1.100");
+        IP_ADDRESSES_MAP.put("PRPC01", "ΧΧΧ.ΧΧΧ.Χ.ΧΧΧ");
 
         // Αρχικοποίηση MAC Addresses
         MAC_ADDRESSES_MAP = new HashMap<>();
-        MAC_ADDRESSES_MAP.put("PRPC01", "74:56:3C:71:32:63");
+        MAC_ADDRESSES_MAP.put("PRPC01", "ΥΥ:ΥΥ:ΥΥ:ΥΥ:ΥΥ:ΥΥ");
         ```
     * Τροποποιήστε τη σταθερά `NUM_PCS` για να αντιστοιχεί στον συνολικό αριθμό των υπολογιστών.
 2.  **Build και Εγκατάσταση:**
@@ -179,8 +179,8 @@
 
         ```python
         IP_TO_HOSTNAME_MAP = {
-            "192.168.1.100": "PRPC01",
-            "192.168.1.101": "PRPC02",
+            "ΧΧΧ.ΧΧΧ.Χ.ΧΧΧ": "PRPC01",
+            "ΧΧΧ.ΧΧΧ.Χ.ΧΧΧ": "PRPC02",
             # ... add more computers
         }
         ```
@@ -201,11 +201,11 @@
         ```java
         // Initialize IP Addresses
         IP_ADDRESSES_MAP = new HashMap<>();
-        IP_ADDRESSES_MAP.put("PRPC01", "192.168.1.100");
+        IP_ADDRESSES_MAP.put("PRPC01", "ΧΧΧ.ΧΧΧ.Χ.ΧΧΧ")
 
         // Initialize MAC Addresses
         MAC_ADDRESSES_MAP = new HashMap<>();
-        MAC_ADDRESSES_MAP.put("PRPC01", "74:56:3C:71:32:63");
+        MAC_ADDRESSES_MAP.put("PRPC01", "ΥΥ:ΥΥ:ΥΥ:ΥΥ:ΥΥ:ΥΥ");
         ```
     * Modify the `NUM_PCS` constant to match the total number of computers.
 2.  **Build and Install:**
