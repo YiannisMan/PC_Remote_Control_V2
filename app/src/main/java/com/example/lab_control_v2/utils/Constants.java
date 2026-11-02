@@ -37,11 +37,11 @@ public class Constants {
     static {
         // Αρχικοποίηση MAC Addresses
         MAC_ADDRESSES_MAP = new HashMap<>();
-        MAC_ADDRESSES_MAP.put("PRPC01", "74:56:3C:71:32:63");
+        MAC_ADDRESSES_MAP.put("PRPC01", "ΥΥ:ΥΥ:ΥΥ:ΥΥ:ΥΥ:ΥΥ");
 
         // Αρχικοποίηση IP Addresses
         IP_ADDRESSES_MAP = new HashMap<>();
-        IP_ADDRESSES_MAP.put("PRPC01", "192.168.1.63");
+        IP_ADDRESSES_MAP.put("PRPC01", "ΧΧΧ.ΧΧΧ.Χ.ΧΧ");
     }
     public static Map<String, String> getMacAddresses()
     {
